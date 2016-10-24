@@ -54,7 +54,13 @@ public class MaquinaDeTickets
     {
         cambio = cambio + cantidad;
     }
-
+    /**
+     * Get the total money in the machine
+     */
+    public int getTotal()
+    {
+            return total;
+    }
     /**
      * Print a ticket.
      * Update the total collected and
@@ -75,4 +81,12 @@ public class MaquinaDeTickets
         // Clear the balance.
         cambio = 0;
     }
+    /**
+     * Metodo para poner un precio
+     */
+    public void setPrice (int Precio)
+    {
+        precio = Precio;
+    }
 }
+
