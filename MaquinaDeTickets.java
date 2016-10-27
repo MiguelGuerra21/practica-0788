@@ -95,5 +95,12 @@ public class MaquinaDeTickets
    {
         System.out.println("por favor, inserte la cantidad correcta de dinero");
    }
+   /**
+    * Metodo que enseñe el precio de un ticket
+    */
+   public void mostrarPrecio()
+   {
+       System.out.println("El precio de un ticket es " + precio + "euros");
+   }
 }
 
