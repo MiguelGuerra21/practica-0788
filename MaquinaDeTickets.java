@@ -88,5 +88,12 @@ public class MaquinaDeTickets
     {
         precio = Precio;
     }
+    /**
+     * Clase que no devuelve nada llamada prompt
+     */
+   public void errorPrecio()
+   {
+        System.out.println("por favor, inserte la cantidad correcta de dinero");
+   }
 }
 
