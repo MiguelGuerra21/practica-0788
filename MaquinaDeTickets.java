@@ -29,6 +29,15 @@ public class MaquinaDeTickets
         cambio = 0;
         total = 0;
     }
+    /**
+     * Crea una maquina con el constructor numero 2
+     */
+    public MaquinaDeTickets(int coste)
+    {
+        precio = coste;
+        cambio = 0;
+        total = 0;
+    }
 
     /**
      * Return the price of a ticket.
