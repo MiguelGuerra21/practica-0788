@@ -111,5 +111,13 @@ public class MaquinaDeTickets
    {
        System.out.println("El precio de un ticket es " + precio + "euros");
    }
+   /**
+    * Vaciar la maquina jiji
+    */
+   public void vaciarMaquina()
+   {
+       total = 0;
+       
+   }
 }
 
