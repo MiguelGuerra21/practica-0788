@@ -23,9 +23,9 @@ public class MaquinaDeTickets
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaDeTickets(int coste)
+    public MaquinaDeTickets()
     {
-        precio = coste;
+        precio = 800;
         cambio = 0;
         total = 0;
     }
